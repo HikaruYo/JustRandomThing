@@ -1,0 +1,44 @@
+body {
+    background-color: azure;
+}
+
+.card {
+    display: flex;
+    width: 480px;
+    margin: 12px;
+    margin-left: 12px;
+    background-color: #c5a8a8;
+    padding: 12px;
+    border-radius: 8px;
+    border: .1rem solid #534e4e;
+    box-shadow: 4px 4px #7e5959;
+    transition: .5s ease;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.desk {
+    margin-left: 24px;
+}
+
+.desk h2 {
+    font-family: "Amatic", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.desk p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.img {
+    border: #4c79ad;
+    padding: 8px;
+}
+
+.gambar {
+    width: 160px;
+}
